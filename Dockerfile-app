@@ -1,4 +1,4 @@
-ARG REGISTRY_NAME=jfeatestweucr01.azurecr.io
+ARG REGISTRY_NAME=jfeatestweucr01-fdedfvd9c8fjb8bm.azurecr.io
 FROM ${REGISTRY_NAME}/baseimages/node:15-alpine
 
 COPY . /src
